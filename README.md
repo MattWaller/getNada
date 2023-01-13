@@ -38,12 +38,12 @@ Response:
 Functions:
 <ul>
 <ol>
-getDomains(): initates / calls getnada's api and retrives acceptable domains for throwaway. 
+<b>getDomains()</b> - initates / calls getnada's api and retrives acceptable domains for throwaway. 
 This function is automatically called in the class.
 To get a list of the acceptable domains you can call {classVariable}.domains
 </ol>
 <ol>
-checkInbox(email,delete)
+<b>checkInbox(email,delete)</b> -
 email is type string: look to use an email such as "example@getnada.com"
 delete is Boolean, and will delete the email in inbox, defaults to True.
 So if you're testing set it to False, if you want to make sure you change it to False if you want to keep the email in inbox.
