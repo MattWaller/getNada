@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 Example:
 gn = getNada()
-# get acceptable domains:
+<!--get acceptable domains: -->
 domains = gn.domains
 email_name = 'whateveryouwant'
 domain = 'getnada.com'
